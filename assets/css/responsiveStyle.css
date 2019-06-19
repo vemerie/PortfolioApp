@@ -1,0 +1,81 @@
+:root {
+    --theme-vic1: #006d91 !important;
+    --theme-vic2: #003459 !important ;
+    --theme-body: #e8f9f9 !important;
+  }
+
+@media(max-width: 767px){
+    .section1{
+        margin-bottom: 2rem;
+        position: relative;
+        /* background-position: 400px 1000px; */
+        min-height: 100vh;
+        background-image: url(../img/select11_bg.png);
+        background-size: cover;
+    }
+    .section1 .col-md-6 h1 {
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 1.2;
+        margin-bottom: 1.5rem;
+        /* color: var(--theme-body); */
+    }
+.section1 button{
+    display: block;
+    margin: auto;
+    width: 150px;
+}
+.section2 .col-md-5 .img img {
+    width: 65px;
+    margin: 5px;
+    display: block;
+    margin: auto;
+}
+    .section1 .col-md-6 >.p1 {
+        /* color: var(--theme-body); */
+    }
+    .section1 .col-md-4 .card {
+        margin-top: 5rem;
+    }
+    /* ------------------------ */
+    .section2{
+        padding: 3rem 1rem;
+        }
+    .section3{
+        padding: 3rem 1rem;
+    }
+    .section3 h1{
+        font-size: 23px;
+        /* line-height: 1.2; */
+    }
+    .section4{
+        padding: 3rem 1rem;
+    }
+   .section4 .display-4 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    .section5{
+        padding: 3rem 1rem;
+    }
+    .section6{
+        padding: 3rem 1rem;
+    } 
+}
+
+#footer h5 {
+    font-size: .5rem;
+    line-height: 18px;
+}
+
+#footer h5 i {
+    font-size: .8rem;
+}
+
+@media(min-width:768) and (max-width:991px){
+    .section1 .col-md-4 .card .card-img img {
+        width: 60%;
+        border-radius: 50%;
+    }
+}

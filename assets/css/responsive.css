@@ -1,0 +1,140 @@
+@media( max-width : 585px ) {
+.alljobs .media-body a{
+	float: none !important
+}
+.fullwidthbanner{
+	display: none !important;
+}
+#banner {
+    /*max-height: 640px;*/
+    min-height: 558px !important;
+    color: #fff;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: 1944.36px 1293px;
+    background-position: 50% -309.072px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 70%;
+    background-image:linear-gradient(rgba(42,46,50,.7),rgba(42,46,50,.7)), url("https://images.pexels.com/photos/207731/pexels-photo-207731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+
+}
+  .mobileScreen{
+        display: block !important;
+      }
+      .ourmission {
+    background: #f4f4f4;
+    padding: 2rem 0px;
+    margin-top: 2rem;
+}
+.offers .card {
+    padding: 2rem;
+    min-height: 302px !important;
+}
+.ourmission {
+    background: #f4f4f4;
+    padding: 0rem 0px !important;
+    margin-top: 4rem !important;
+}
+.per_exp{
+	    margin-top: 2rem;
+}
+}
+
+@media( max-width : 989px ) {
+.alljobs .media-body a{
+	float: none !important
+}
+.fullwidthbanner{
+	display: none !important;
+}
+#banner {
+    /*max-height: 640px;*/
+    min-height: 558px !important;
+    color: #fff;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: 1944.36px 1293px;
+    background-position: 50% -309.072px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 70%;
+    background-image:linear-gradient(rgba(42,46,50,.7),rgba(42,46,50,.7)), url("https://images.pexels.com/photos/207731/pexels-photo-207731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+
+}
+.ourmission {
+    background: #f4f4f4;
+    padding: 0rem 0px !important;
+    margin-top: 4rem !important;
+}
+  .mobileScreen{
+        display: block !important;
+      }
+      .ourmission {
+    background: #f4f4f4;
+    padding: 2rem 0px;
+    margin-top: 2rem;
+}
+.offers .card {
+    padding: 2rem;
+    min-height: 302px !important;
+}
+.per_exp{
+	    margin-top: 2rem;
+}
+}
+@media( max-width : 220px ){
+.alljobs .media-body a{
+	float: none !important
+}
+.fullwidthbanner{
+	display: none !important;
+}
+  .mobileScreen{
+        display: block !important;
+      }
+#banner {
+    /*max-height: 640px;*/
+    min-height: 558px !important;
+    color: #fff;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: 1944.36px 1293px;
+    background-position: 50% -309.072px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 70%;
+    background-image:linear-gradient(rgba(42,46,50,.7),rgba(42,46,50,.7)), url("https://images.pexels.com/photos/207731/pexels-photo-207731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+
+}
+.ourmission {
+    background: #f4f4f4;
+    padding: 2rem 0px;
+    margin-top: 2rem;
+}
+.offers .card {
+    padding: 2rem;
+    min-height: 302px !important;
+}
+.ourmission {
+    background: #f4f4f4;
+    padding: 0rem 0px !important;
+    margin-top: 4rem !important;
+}
+.per_exp{
+	    margin-top: 2rem;
+}
+}
+
+
+/*@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}*/
+
