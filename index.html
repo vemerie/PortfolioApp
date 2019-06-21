@@ -30,10 +30,9 @@
 	<link rel="stylesheet" href="assets/css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/responsiveStyle.css">
-
+	
 	<link rel="stylesheet" href="assets/css/animate.css">
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"></script>
-
+	<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"></script> -->
 	<!-- CSS STYLE-->
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
@@ -64,34 +63,32 @@
 		</div>
 	</section>
 	<header id="">
-		<nav class="navbar navbar-expand-md bg-dark-blue" data-aos-easing="linear" data-aos="fade-down"
-		data-aos-delay="500" data-aos-duration="1000">
+		<nav class="navbar navbar-expand-md bg-dark-blue aos-init aos-animate" data-aos-easing="linear" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
 			<div class="container">
 				  <!-- Brand -->
 			  <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="" style="height: 50px;"></a>
 
 			  <!-- Toggler/collapsibe Button -->
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-			    <span class="navbar-toggler-icon"></span>
-			  </button>
+				<span class="fas fa-bars"></span>
+			</button>
 
 			  <!-- Navbar links -->
 			  <div class="collapse navbar-collapse" id="collapsibleNavbar">
 			  
 			    <ul class="navbar-nav mt-2 mt-lg-0 ml-auto">
 			      <li class="nav-item active">
-			        <a class="font-weight-bold nav-link" href="index.html">Home</a>
+			        <a class="font-weight-bold nav-link" href="#section4">Projects</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="joboard.html">Stack</a>
+			        <a class="nav-link" href="#section2">Stack</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="guide.html">Projects</a>
+			        <a class="nav-link" href="#section3-pseudo">Work</a>
 			      </li> 
 			      <li class="nav-item">
-					<a href="https://facebook.com/vikiateck"><i class="fab fa-lg fa-facebook mx-3"></i></a>
-					<a href="https:/twitter.com/vikatech"><i class="fab fa-lg fa-twitter mr-3"></i></a>
-					<a href="aboutus.html"><i class="fab fa-lg fa-instagram mr-3"></i></a>
+					<a href="https://facebook.com/vikiatech" target="_blank"><i class="fab fa-lg fa-facebook mx-3"></i></a>
+					<a href="https:/twitter.com/vikatech" target="_blank"><i class="fab fa-lg fa-twitter mr-3"></i></a>
 					</li> 
 			    </ul>
 			  </div>
@@ -102,16 +99,16 @@
 	
 	</header>
 	<main class="main">
-		<section class="section1">
+		<section class="section1" id="section1">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<h1 data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">LEARN, <span class="viktor-color1">GET BETTER</span></h1>
-						<h1 data-aos="fade-right" data-aos-delay="700" data-aos-duration="1000">OUTDO MYSELF, <span class="viktor-color1">GET BETTER</span></h1>
+						<h1 class="" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">LEARN, <span class="viktor-color1">GET BETTER</span></h1>
+						<h1 class="" data-aos="fade-right" data-aos-delay="700" data-aos-duration="1000">OUTDO MYSELF, <span class="viktor-color1">GET BETTER</span></h1>
 						<p class="p1">I am an Ardent Programmer who is passionate about my work, with the zeal to always learn new technologies and improve my skills.</p>
 						<p class="p1">Over the space of 1 years and 6 months, I have gradually exposed myself to as much as many skills and technologies that are relevant in surviving in this Digital age and that includes;</p>
 						<p>Digital Photography, Graphics design, front-end development,  basics of most backend languages, flutter for mobile, Agile development environment and many more</p>
-						<button  class="btn border bg-viktor1 font-weight-bold text-white mb-5" >View CV <i class=" ml-3 fa fa-angle-right"></i></button>
+						<a href="./assets/img/Ezeh_victor_chiemerie.pdf"  target="_blank" class="cv btn border bg-viktor1 font-weight-bold text-white mb-5" >View CV <i class=" ml-3 fa fa-angle-right"></i></a>
 					</div>
 					<div class="col-md-4 mx-auto">
 						<div class="card" data-aos="fade-down-left" data-aos-delay="500" data-aos-duration="1000">
@@ -133,8 +130,8 @@
 				</div>
 			</div>
 		</section>
-		<section class="section2">
-			<div class="container">
+		<section class="section2" id="section2">
+			<div class="container" data-aos="fade-down-right" data-aos-delay="400" data-aos-duration="1000">
 				<h1 class="">
 					STACK
 				</h1>
@@ -144,20 +141,22 @@
 						<p class="border-bottom my-4"></p>
                         <p>This stacks include HTML5, CSS3, Javascript, Bootstrap, Sass, Jquery, Php/Laravel,ReactJS, Vuejs, Mysql, Python, Photoshop, Gimp</p>
 					</div>
-					<div class="col-md-5  mb-5" data-aos="zoom-out-left" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease">
+					<div class="col-md-5 aos-init mb-5" data-aos="zoom-out-left" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease">
 						<div class="img">
 							<img src="assets/img/icons8-html-5-50.png"  class="img-responsive d-inline" />
-							<img src="assets/img/logo.png"  class="img-responsive d-inline" />
+							<img src="assets/img/th.png"  class="img-responsive d-inline" />
 							<img src="assets/img/icons8-javascript-50.png"  class="img-responsive d-inline" />
 							<img src="assets/img/icons8-bootstrap-50.png"  class="img-responsive d-inline">
 							<img src="assets/img/icons8-mysql-50.png"  class="img-responsive d-inline"/>
 							<img src="assets/img/icons8-php-logo-50.png"  class="img-responsive d-inline" />
 							<img src="assets/img/icons8-python-50.png"  class="img-responsive d-inline"  />
-							<img src="assets/img/logo.png"  class="img-responsive d-inline">	
+							<img src="assets/img/sel.png"  class="img-responsive d-inline">	
+							<img src="assets/img/react-logo.png"  class="img-responsive d-inline">	
+
 						</div>
 					</div>
 					<div class="col-md-9"><h3>PROFICIENCY</h3></div>
-					<div class="col-md-5 mr-auto">
+					<div class="col-md-5 mr-auto" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
 						<h4>Client Side </h4>
 						<p>HTML5</p>
 						<div class="progress">
@@ -184,13 +183,13 @@
 							<div class="progress-bar bg-danger" role="progressbar" style="width: 45%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">50%</div>
 						</div>
 					</div>
-					<div class="col-md-5 mr-auto">
+					<div class="col-md-5 mr-auto" data-aos="fade-down-left" data-aos-delay="300" data-aos-duration="1000">
 						<h4>Sever Side Languages/ Frameworks</h4>
 						<p>PHP/Laravel</p>
 						<div class="progress">
 							<div class="progress-bar bg-primary" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
 						</div>
-						<p style=" width:150px;">JS/NodeJs</p>
+						<p>JS/NodeJs</p>
 						<div class="progress">
 							<div class="progress-bar bg-danger" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
 						</div>
@@ -217,15 +216,16 @@
 				</div>
 			</div>
 		</section>
-		<section class="section3">
+		<p id="section3-pseudo"></p>
+		<section class="section3" id="section3">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-10 mx-auto">
-						<h1 class="text-white" data-aos="fade-in" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease">
+						<h1 class="text-white aos-init" data-aos="fade-in" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease">
 							WORK EXPERIENCE
 						</h1>
 						<div class="row">
-							<div class="col-md-7" data-aos="fade-in" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease">
+							<div class="col-md-7 aos-init" data-aos="fade-in" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease">
 								<h4 class="font-weight-bold viktor-color1">IYANU.IO</h4>
 								<p class="small font-weight-bold mb-4">FRONT END DEVELOPER </p>
 								<h4 class="font-weight-bold viktor-color1">TECH 24</h4>
@@ -248,32 +248,32 @@
 				</div>
 			</div>
 		</section>
-		<section class="section4">
+		<section class="section4" id="section4">
 			<div class="container">
 				<h1 class=" text-center display-4 my-5" data-aos="zoom-in">
 					PROJECTS
 				</h1>
 				<div class="row">
-					<div class="col-md-3 mx-auto bg-viktor1 mb-5" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease">
-						<img class="img-responsive d-block mx-auto" src="assets/img/logo.png" width="80" />
-						<a href="metookit.com">
+					<div class="col-md-3 mx-auto bg-viktor1 mb-5 " data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease">
+						<a href="https:\\metookit.com" target="_blank"><img class="img-responsive d-block mx-auto" src="assets/img/METOO (2).PNG" style="height:150px; width: 150px;" /></a>
+						<a href="https:\\metookit.com" target="_blank">
 							<h4 class="font-weight-bold text-white">Metookit</h4>
 						</a>
 							<p>Metoo kit is a product platform that help victims of sexual assault recover from their experiences and even fight this culprits</p>
 							<p class="small"> I was part of the team that build the site, focusing on coding the UI</p>
 						
 					</div>
-					<div class="col-md-3 mx-auto bg-viktor1 mb-5" data-aos="flip-right" data-aos-delay="500" data-aos-duration="100" data-aos-easing="ease">
-						<img class="img-responsive d-block mx-auto" src="assets/img/logo.png" width="80" />
-						<a href="https://shuzia.com">
+					<div class="col-md-3 mx-auto bg-viktor1 mb-5 " data-aos="flip-right" data-aos-delay="500" data-aos-duration="100" data-aos-easing="ease">
+						<a href="https://shuzia.com" target="_blank"><img class="img-responsive d-block mx-auto" src="assets/img/shuzia.png" style="height:100px; width: 120px; margin: .5rem 1rem 2rem 1rem;" /></a>
+						<a href="https://shuzia.com" target="_blank">
 							<h4 class="font-weight-bold text-warning">Shuzia</h4>
 						</a>	
 							<p>Shuzia its a platform where we can get latest gospel Music, Messages & eBooks. The applications has a lot modules including online payment, Social media Authorizations and a lot more</p>
 							<p class="small"> Involved in adding features to the App all in reactjs</small>	
 					</div>
 					<div class="col-md-3 mx-auto bg-viktor1 mb-5" data-aos="zoom-in-right" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease">
-						<img class="img-responsive d-block mx-auto" src="assets/img/logo.png" width="80" />
-						<a href="">
+						<a href="https://immense-badlands-40083.herokuapp.com/" target="_blank"><img class="img-responsive d-block mx-auto" src="assets/img/unnamed-5@3x.png" style="height:100px; width: 120px; margin: .5rem 1rem 2rem 1rem;" /></a>
+						<a href="https://immense-badlands-40083.herokuapp.com/" target="_blank">
 							<h4 class="font-weight-bold text-warning">Qwuizz</h4>
 						</a>
 							<p>Its a Crowd funding App. Still on construction</p>
@@ -287,8 +287,8 @@
 				</div>
 			</div>
 		</section>
-		<section class="section5">
-			<div class="container">
+		<section class="section5" id="section5">
+			<div class="container px-5">
 				<h1 class="">
 					TOOLS
 				</h1>
@@ -296,7 +296,7 @@
 					<div class="col-md-7">
 						<h3></h3>
 						<p>Some of the tools that I have become exposed to includes</p>
-						<ul>
+						<ul class="font-weight-bold">
 							<li>GIT</li>
 							<li>WINDOWS</li>
 							<li>LINUX/UBUNTU</li>
@@ -304,21 +304,22 @@
 							<li>ECLIPSE</li>
 							<li>GIMP 2.0</li>
 							<li>PHOTOSHOP</li>
+							<li>JIRA</li>
+							<li>TRELLO</li>
 						</ul>
 					</div>
 					<div class="col-md-5">
 						<div class="img">
-							<a href="https://github.com/vemerie" class="text-primary ml-5 font-weight-bold">GitHub</a>
-							<a href="https://bitbucket.com/viktor_ezeh" class="text-success ml-5 font-weight-bold">BitBucket </a>
-							<a href="#" class="text-primary ml-5 font-weight-bold">Kaggle</a>
-							<a href="#" class="text-success ml-5 font-weight-bold">Morio</a>
+							<a href="https://github.com/vemerie" target="_blank" class="text-primary ml-5 font-weight-bold">GitHub</a>
+							<a href="https://bitbucket.com/viktorezeh" target="_blank" class="text-success ml-5 font-weight-bold">BitBucket </a>
+							<a href="https://morioh.com/@viktorezeh" class="text-primary ml-5 font-weight-bold">Kaggle</a>
+							<a href="https://morioh.com/@viktorezeh" class="text-success ml-5 font-weight-bold">Morio</a>
 							
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="section6"></section>
 	</main>
 	<footer>
 		<div id="footer" >
@@ -334,15 +335,16 @@
 					<div class="col-md-4">
 						<h5 class="text-white"><i>One machine can do the work of fifty ordinary men.  No machine can do the work of one extraordinary man.</i> - <small>Elbert Hubbard (Author)</small></h5>
 						<p class="text-center">Want to know more about Me</p>
-						<p class="text-center"><button class="btn btn-light">CURRICULUM VITAE!</button></p>
+						<p class="text-center"><a href="./assets/img/Ezeh_victor_chiemerie.pdf" class="cv btn btn-light">CURRICULUM VITAE!</a></p>
 					</div>
 					<div class="col-md-2 mx-auto">
 						<h4>Ezeh</h4>
 						<ul class="footer-links">
-							<li><a href="#section4">Work Experience</a></li>
-							<li><a href="#section3">Projects</a></li>
-							<li><a href="section2.html">Stack</a></li>
-							<li><a id="contact">Contact Us</a></li>
+								<li id="contact"><a href="#section1" >Home</a></li>
+							<li><a href="#section3-pseudo">Work Experience</a></li>
+							<li><a href="#section4">Projects</a></li>
+							<li><a href="#section2.html">Stack</a></li>
+							
 						</ul>
 					</div>
 				</div>
@@ -351,12 +353,9 @@
 
 		</div>
 	</footer>
-	<!-- <script type="" src="assets/js/jqey.js"></script> -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
-	
-	<script type="" src="assets/js/main.js"></script>
-	
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -370,10 +369,13 @@
 // setTimeout(hideDiv, 9000);
 $(window).load(function () { 
     $(".loader-container").fadeIn("slow");
-    $(".loader-container").delay(1000).fadeOut("slow");
+    $(".loader-container").delay(2000).fadeOut("slow");
 });
-
-$(".contact").click(swal("08161817319"))
+// $(document).ready(
+// 	function(){
+// 		$('.contact').click(swal("08161817319"))
+// 	}
+// )
   </script>
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
